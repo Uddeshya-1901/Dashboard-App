@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "title": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "type": "pieChart",
+          "title": "Cloud Accounts",
+          "data": {
+            "total": 2,
+            "segments": [
+              { "label": "Connected", "value": 2, "color": "#4A90E2" },
+              { "label": "Not Connected", "value": 2, "color": "#A3C2F4" }
+            ]
+          }
+        },
+        {
+          "type": "donutChart",
+          "title": "Cloud Account Risk Assessment",
+          "data": {
+            "total": 9659,
+            "segments": [
+              { "label": "Failed", "value": 1689, "color": "#D0021B" },
+              { "label": "Warning", "value": 681, "color": "#F8E71C" },
+              { "label": "Not available", "value": 36, "color": "#9B9B9B" },
+              { "label": "Passed", "value": 7253, "color": "#7ED321" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+    "title": "CWPP Dashboard",
+      "widgets":[
+        {
+          "type": "null",
+          "title": "Top 5 Namespace Scientific Alerts",
+          "data": {
+            "total":null,
+            "segments": [
+              null
+            ]
+          }
+          
+        },
+        {
+          "type": "null",
+          "title": "Workload Alerts",
+          "data": {
+            "total": null,
+            "segments": [
+              null
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Registry Scan",
+      "widgets":[
+        {
+          "type": "horizontalBar",
+          "title": "Image Risk Assesment",
+          
+          "data": {
+            "total": 1470,
+            "segments": [
+              { "label": "Critical", "value": 9, "color": "#60100B" },
+              { "label": "High", "value": 150, "color": "#D0312D" },
+              { "label": "Average", "value": 680, "color": "#FFA500" },
+              { "label": "Low", "value": 631, "color": "#ffd800 " }
+            ]
+          }
+          
+        },
+        {
+          "type": "horizontalBar",
+          "title": "Image Security Issues",
+          
+          "data": {
+            "total": 2,
+            "segments": [
+              { "label": "Critical", "value": 2, "color": "#60100B" },
+              { "label": "High", "value": 2, "color": "#D0312D" },
+              { "label": "Average", "value": 2, "color": "#FFA500" },
+              { "label": "Low", "value": 1, "color": "#ffd800 " }
+            ]
+          }
+        }
+      ]
+    } 
+  ]
+}

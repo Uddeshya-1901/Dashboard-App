@@ -1,0 +1,82 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -600px;
+  width: 600px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0px 80px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  pointer-events: auto;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #091141;
+  color: #fff;
+}
+ul{
+  padding: 2px;
+  
+}
+ul li{
+  list-style:none;
+}
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.confirm-button, .cancel-button {
+ 
+  position: absolute;
+  top: 90%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: flex;
+  
+}
+
+.confirm-button {
+  background-color: #091141;
+  color: #fff;
+  left: 70%;
+  
+  
+  
+}
+
+.cancel-button {
+  background-color: #f1f1f1;
+  color: #333;
+  left: 85%;
+  
+  
+
+}
+.sidebar-container-open{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
