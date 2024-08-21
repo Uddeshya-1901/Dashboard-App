@@ -1,0 +1,142 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f7f7f7;
+     position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .category {
+    margin-bottom: 30px;
+  }
+  
+  .widgets {
+    border: 2px solid #f3f3f3; 
+    border-radius: 15px;
+    width: 100%; 
+    height: 75%; 
+    align-items: center; 
+    display: flex; 
+    background-color: #f3f3f3;
+   
+  }
+  .pie-widget{
+    width: 33%; 
+  }
+  .donut-widget{
+    width: 33%;  
+  } 
+  .widget h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .total {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .no-graph-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+  }
+  .no-graph{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 200px;
+    margin: 8px;
+    padding: 16px;
+    width: 33%;
+    height: 400px;
+    
+    
+  }
+  .add-widget{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 200px;
+    margin: 8px;
+    padding: 16px;
+    width: 33%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  
+  .horizontal-widget{
+    width: 33%;
+    
+    
+  }
+  .widget{
+    height: 400px;
+  }
+  
+  .add-button{
+    border: '1px solid #ddd';
+    border-radius: '4px';
+    cursor: 'pointer';
+    padding: 5px;
+
+  }
+  .add-button > button{
+    background-color: white;
+    color: rgb(96, 95, 95);
+    border: 1px solid rgb(163, 162, 162);
+  }
+  
+  .refresh-button{
+   
+  display: 'flex';
+  padding: 5px;
+  }
+  .refresh-button > button{
+    background-color: white;
+    color: rgb(96, 95, 95);
+    border: 1px solid rgb(163, 162, 162);
+  }
+  .options-button{
+    display: 'flex';
+    padding: 5px;
+  }
+  .options-button > button{
+    background-color: white;
+    color: rgb(96, 95, 95);
+    border: 1px solid rgb(163, 162, 162);
+  }
+  
+  .time-range{
+    
+  color: '#000';
+  border: '1px solid #ddd';
+  border-radius: '4px';
+  
+  cursor: 'pointer';
+  padding: 5px;
+     
+  }
+  .time-range > button{
+    background-color: white;
+    color: rgb(30, 30, 91);
+    border: 2px solid rgb(30, 30, 91);
+  }
+  .nav-dashboard{
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-buttons{
+    display: flex;
+    margin-right: 10px;
+  } 
+   
+  

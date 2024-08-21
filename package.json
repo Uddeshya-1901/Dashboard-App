@@ -1,0 +1,35 @@
+{
+  "name": "dashboard-app",
+  "version": "1.0.0",
+  "description": "dashboard-app-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uddeshya-1901/Dashboard-App.git"
+  },
+  "author": "Uddeshya Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uddeshya-1901/Dashboard-App/issues"
+  },
+  "homepage": "https://github.com/Uddeshya-1901/Dashboard-App#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "chart.js": "^4.4.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  }
+}
